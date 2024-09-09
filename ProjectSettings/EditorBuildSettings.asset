@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Intro.unity
     guid: 6a28c2df610a60c4fa52d7c61317004b
+  - enabled: 1
+    path: Assets/Scenes/CliffHanger.unity
+    guid: d0987eca21aba704a97827060fc0c739
   m_configObjects: {}
