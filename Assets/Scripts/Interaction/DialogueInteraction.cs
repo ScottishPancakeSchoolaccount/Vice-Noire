@@ -61,6 +61,8 @@ public class DialogueInteraction : MonoBehaviour
 
     IEnumerator TalkToPerson()
     {
+        InteractionText.text = "";
+
         fpsController.enabled = false;
         TalkZoomVcam.enabled = true;
         PlayerVcam.enabled = false;
