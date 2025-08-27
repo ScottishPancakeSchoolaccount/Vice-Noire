@@ -14,7 +14,6 @@ public class Shooting : MonoBehaviour
     void Start()
     {
         ethansEyes= GetComponent<Camera>();
-        Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
 
         if (animator == null)
